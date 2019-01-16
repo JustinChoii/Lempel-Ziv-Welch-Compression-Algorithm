@@ -112,7 +112,7 @@ bool parser(int argc, char** argv, int *N, int *L, int *S, string *filename, boo
     if (S_exist == false) {
         *S = 3;
     }
-    if (error = false) {
+    if (error == false) {
     	std::cout << "Failed to Parse" << std::endl;
         return false;
     }
